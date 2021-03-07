@@ -312,7 +312,7 @@ class CrimeFragment : Fragment(), DatePickerFragment.Callbacks {
             getString(R.string.crime_report_suspect, crime.suspect)
         }
 
-        val solvedAndSuspect = "$solvedString and $suspect"
+        val solvedAndSuspect = "$solvedString, $suspect"
 
         return getString(
             R.string.crime_report,

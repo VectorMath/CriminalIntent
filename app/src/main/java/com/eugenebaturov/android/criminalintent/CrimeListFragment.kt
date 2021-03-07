@@ -14,8 +14,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import java.util.*
 
-private const val TAG = "CrimeListFragment"
-
 class CrimeListFragment : Fragment() {
 
     interface Callbacks {
@@ -61,7 +59,6 @@ class CrimeListFragment : Fragment() {
             viewLifecycleOwner,
             Observer { crimes ->
                 crimes?.let {
-                    Log.i(TAG, "Got crimes ${crimes.size}")
                     updateUI(crimes)
                 }
             }

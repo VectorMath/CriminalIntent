@@ -1,16 +1,13 @@
 package com.eugenebaturov.android.criminalintent
 
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
+
 import android.net.Uri
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
-import java.io.File
 
 
 class DialogFragment : Fragment() {
