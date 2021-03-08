@@ -17,8 +17,8 @@
   - Room
   - LiveData
 - **Паттерны**
-  - Room
-  - LiveData
+  - MVC
+  - Singletone
 
 - **Диалоговые окна**
 
